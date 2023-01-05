@@ -1,12 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
  width: 100%;
+ background-color:#EC715F;
+ height: 70px;
 }
 
 .logo-container{
-    background-color: orange;
-     height: 70px;
+     display:flex;
+     justify-content:space-between;
+}
+
+.container{
+    width:1024px;
+    margin:0 auto;
 }
 
 .logo{
     height: 70px;
+}
+
+.header-ul{
+    list-style: none;
+    
+}
+
+.header-li{
+    float:left;
+    width: 120px;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.header-ul a{
+    text-decoration:none;
 }
